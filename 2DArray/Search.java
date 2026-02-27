@@ -13,12 +13,12 @@ public class Search {
     }
     public static void main(String[] args) {
         int arr[][]={{1,2,3},{4,7,5},{8,0,9}};
-        int found[]=search(arr, 3);
+        int found[]=search(arr, 4);
         if(found!=null){
             System.out.println("Element found at position: ("+found[0]+","+found[1]+")");
         }
         else{
-            System.out.println("Element not found:");
+            System.out.println("Element not found");
         }
     }
     
