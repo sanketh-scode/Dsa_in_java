@@ -1,17 +1,14 @@
 package Recursion;
 
 public class SumOfN {
-    public static void Sum(int i,int n,int sum){
-        if(i==n){
-            sum+=i;
-            System.out.println("Sum: "+sum);
-            return;
+    public static int Sum(int n){
+        if(n==1){
+            return 1;
         }
-        sum+=i;
-        Sum(i+1, n, sum);
+        return n+Sum(n-1);
     }
     public static void main(String[] args) {
-      Sum(1,5,0);
+      System.out.println("Sum of N number is: "+Sum(5));
     }
     
 }

@@ -12,6 +12,9 @@ class Fibonacci {
     }
     public static void main(String[] args) {
         int n=5;
-        System.out.println("Fibonacci of number "+n+" is "+fib(n));
+        System.out.println("Fibonacci series of "+n+" numbers is ");
+        for(int i=0;i<n;i++){
+            System.out.print(fib(i)+" ");
+        }
     }
 }
