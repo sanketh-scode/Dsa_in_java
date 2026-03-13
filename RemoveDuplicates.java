@@ -1,7 +1,7 @@
 public class RemoveDuplicates {
     static void removeDuplicates(String s){
         StringBuilder sb= new StringBuilder();
-        boolean []visited=new boolean[];
+        boolean []visited=new boolean[256];
         
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
