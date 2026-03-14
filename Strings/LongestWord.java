@@ -1,3 +1,4 @@
+package Strings;
 public class LongestWord {
     static String longest(String s){
         String arr[]=s.split(" ");

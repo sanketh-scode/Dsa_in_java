@@ -1,3 +1,4 @@
+package Strings;
 public class ReverseSentence {
     static void reverse(String s){
         StringBuilder sb=new StringBuilder();

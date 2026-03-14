@@ -1,3 +1,4 @@
+package Strings;
 public class RemoveDuplicates {
     static void removeDuplicates(String s){
         StringBuilder sb= new StringBuilder();

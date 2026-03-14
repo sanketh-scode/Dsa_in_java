@@ -1,3 +1,4 @@
+package Strings;
 public class VowelCount {
     static void vowelCount(String s){
         int count=0;
