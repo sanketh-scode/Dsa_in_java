@@ -24,7 +24,7 @@ public class MaxSumSubarrayK {
         int n=arr.length;
         int k=3;
         int result=maxSum(arr, k, n);
-        System.out.println("maximum sum for "+ k+"th sub array is"+result);
+        System.out.println("maximum sum for "+ k+"th sub array is "+result);
     }
     
 }
